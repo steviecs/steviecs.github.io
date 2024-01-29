@@ -1,8 +1,8 @@
 ---
-title: "The Shortsightedness of AI as a Brand Identity"
+title: 'The Shortsightedness of AI as a Brand Identity'
 description: "Why you're mis-categorizing your business, and don't need to be"
-pubDate: "Jan 28 2024"
-heroImage: "/are-you-ai.png"
+pubDate: 'Jan 28 2024'
+heroImage: '/are-you-ai.png'
 ---
 
 In 2007, Apple re-branded from ‘_Apple Computers_’ to simply ‘_Apple_’. This might not register as a particularly significant change, but I don't think it's importance should be understated. Not only did this better reflect their broader focus beyond just computers, but it was a strategic move away from an outdated moniker that bound their brand identity to the value prop of what became a saturated, commonplace technology.
@@ -15,16 +15,18 @@ Why bound the consumer perception of what your company is good for, at all?
 
 **I roll my eyes into the back of my skull every time I see a startup wrapping 3rd party APIs aggressively marketing themselves as an 'AI startup’'.**
 
-Alright fine, not *every* time - so let me clear up exactly which persona I’m referencing here. In my mind, there's four distinct shades on the '_AI Company-to-Company Using AI_' gradient that I just made up:
+Alright fine, not _every_ time - so let me clear up exactly who I’m referencing here. In my mind, there's four distinct personas, and they each fall somewhere on this poorly made '_AI Company-to-Company Using AI_' quadrant chart:
+
+![AI Company-to-Company Using AI chart](/chart.png)
 
 1. **AI Innovators & Leaders:**
-  Leading AI research and innovation, building the core technologies themselves
+   Leading AI research and innovation, building the core technologies themselves
 2. **Domain-Specific AI Solutions:**
-  Continuously improving & applying AI capabilities to specific domains or industries
+   Continuously improving & applying AI capabilities to specific domains or industries
 3. **AI-Driven Integrators:**
-  Heavily leveraging AI in their offerings, but not necessarily involved in improving or building core AI technologies
+   Heavily leveraging AI in their offerings, but not necessarily involved in improving or building core AI technologies
 4. **AI-Enabled Integrators:**
-  Using AI to enhance their offerings without being primarily AI-focused, and no involvement in improving or building core AI technologies
+   Using AI to enhance their offerings without being primarily AI-focused, and no involvement in improving or building core AI technologies
 
 I'm primarily referencing those that fall into 4 & 3, and sometimes even 2. These are startups that should be treating AI capabilities as complementary features to an otherwise viable product, rather than forcing it to take center stage.
 
