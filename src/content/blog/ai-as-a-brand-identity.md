@@ -2,7 +2,7 @@
 title: "The Shortsightedness of AI as a Brand Identity"
 description: "Why you're mis-categorizing your business, and don't need to be"
 pubDate: "Jan 28 2024"
-heroImage: "public/are-you-ai.png"
+heroImage: "/are-you-ai.png"
 ---
 
 In 2007, Apple re-branded from ‘_Apple Computers_’ to simply ‘_Apple_’. This might not register as a particularly significant change, but I don't think it's importance should be understated. Not only did this better reflect their broader focus beyond just computers, but it was a strategic move away from an outdated moniker that bound their brand identity to the value prop of what became a saturated, commonplace technology.
