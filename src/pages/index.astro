@@ -1,0 +1,71 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={`Hi, I&apos;m Stevie`} />
+		<main>
+			 <h1>🤦 Really phoned in the design, didn't I?</h1>
+			<p>
+				That's fair, but I'm personally <span style="background-color: #FED398"> <b> l o v i n g </b> </span>
+				the resurgence of minimally designed, function-over-fashion dev blogs. Anyway, despite the underwhelming design,
+				I've actually been a part of building some really cool stuff, which you can find on my LinkedIn.
+				<br/>
+				<br/>
+				<small>
+				(psych LinkedIn sucks - check out <a href="https://skyslope.com/products-services/offers/"
+					>this</a>, <a href="https://breeze.skyslope.com/"
+					>this</a>, <a href="https://skyslope.com/products-services/digisign/"
+					>this</a>, and <a href="https://swayzio.com"
+					>this</a>)
+				</small>
+			</p> 
+			<h2>Personal life<h2/> 
+			<p>
+				I live downtown Sacramento with my fiancé and five cats (I know).
+				You can catch me watching horror movies, drinking wine,
+				baking sourdough pizza, and - counterintuitively to the last two thing - exercising for fun.
+				<br/>
+				<br/>
+				Also, I build & design software with cool people for money at <a href="https://skyslope.com" target="_blank">SkySlope</a>.
+				<br/>	
+				<br/>
+				<b>ALSO also</b>, I build & design software with a different group of cool people, for considerably less money at <a href="https://swayzio.com" target="_blank">Swayzio</a>.
+			</p>
+			<h2>Career<h2/>
+			<p>I'm an indivdually contributing software engineer by day, and a co-founder/CTO by night.</p>
+			<p>
+				Although I've dabbled in all sorts of things, but I'm pretty committed to strictly developing for the web now, at this point.
+				I've used lot of different technologies with
+				varying levels of comfortability & expertise, but instead of an exhaustive list, I'll
+				just desribe the stack that I'm happy with these days (in a format borrowed from the
+				brilliant <a href="https://www.olivare.net/" target="_blank">Zach Olivare</a>):
+			</p>
+			<ul>
+				<b>Build in:</b>
+				<ul>
+				<li>TypeScript, JavaScript, HTML, CSS</li>
+				</ul>
+				<b>Build with:</b>
+				<ul>
+				<li>Node.js, React, Next.js, React Query, Tailwind CSS, MongoDB, GCP, AWS</li>
+				</ul>
+				<b>Build for:</b>
+				<ul>
+				<li>Web, Node.js, containers</li>
+				</ul>
+			</ul>
+		</main>
+		<br/>
+		<hr/>
+		<Footer/>				
+	</body>
+</html>
