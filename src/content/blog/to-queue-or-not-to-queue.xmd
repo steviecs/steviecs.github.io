@@ -1,0 +1,50 @@
+---
+title: 'To Queue or Not to Queue: A Case'
+description: "Why you're probably mis-categorizing your startup, and don't need to be"
+pubDate: 'Jan 28 2024'
+heroImage: '/are-you-ai.png'
+---
+
+There's plenty of valid reasons to maintain a queue that might often be empty, such I'm specifically criticizing the use case of traffic control.
+
+I've been working with SQS a lot recently. At SkySlope we have a number of systems using queues for
+sensible reasons, but I've come to notice that some of these queues are mostly empty during peak hours, which got me thinking.
+
+If a queue isn't they're empty?
+
+You might be thinking 'If the queue is receiving messages, then it's doing it's job by processing them'
+
+If your actively used queues are empty, that suggest that you're either:
+
+- Underestimating the volume of incoming messages
+- Over-provisioning your queue consumers
+
+Either of the two indicates an over engineered solution where the benefit of a queue is lost.
+
+Introducing queues as an early optimization to do traffic control for a data flow that doesn't call for it results in needlessly complex system design.
+
+By introducing a queue to a system, if done right, you're introducing at the very least, three, but up to five new components to your system in every environment:
+
+- The queue itself
+- A dead-letter queue
+- Monitoring & alerts
+- An intermediary consuming service
+- Infrastructure-as-code provisioning
+
+Queues aren't a drop in replacement for an SDK for proxy service.
+
+<!-- Because, if implemented properly: where there's a queue, there's a dead-letter queue, and where there's queues, there's more monitoring & alerts. -->
+
+- Workloads with consistently high, or frequent bursts of requests that might otherwise overwhelm the consuming systems
+
+<!--
+## title
+
+**bold**
+
+![image name](/image.png)
+
+1. **bt**
+   bb
+
+- l
