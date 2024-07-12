@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = "Stevie's Blog"
 export const SITE_DESCRIPTION =
-  'A collection of thoughts somewhere at intersection of software, language, and the world around me'
+  'A collection of thoughts somewhere at the intersection of software, language, and the world around me'
