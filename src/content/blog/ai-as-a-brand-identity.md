@@ -5,17 +5,17 @@ pubDate: 'Jan 28 2024'
 heroImage: '/are-you-ai.png'
 ---
 
-In 2007, Apple re-branded from ‘_Apple Computers_’ to ‘_Apple_’. This might not register as a significant change, but it holds a quiet importance that shouldn't be understated. Not only did this better reflect their broader focus beyond just computers, but it was a strategic move away from a redundant moniker that bound their identity to the value prop of what became a saturated, commonplace technology.
+In 2007, Apple rebranded from ‘_Apple Computers_’ to ‘_Apple_’. This might not register as a significant change, but it holds a quiet importance that shouldn't be understated. Not only did this better reflect their broader focus beyond just computers, but it was a strategic move away from a redundant moniker that bound their identity to the value prop of what would become an oversaturated, commonplace technology.
 
-Why specify ‘computers’ in your name when that’s the foundation of your industry?
+Why specify `computers` in your name when it's the foundation of your industry?
 
 Why bound the consumer perceptions of what your company is good for, at all?
 
 ## Today's analog
 
-**I roll my eyes into the back of my skull every time I see a startup wrapping 3rd party APIs aggressively marketing themselves as an 'AI startup’'.**
+**I roll my eyes into the back of my skull every time I see a startup wrapping 3rd party LLM APIs aggressively marketing themselves as an "AI startup".**
 
-Alright fine, not _every_ time - so let me be clear about exactly who I’m referencing here. In my mind, there's four distinct personas, each landing somewhere on this poorly made '_AI Company-to-Company Using AI_' quadrant chart:
+Alright not _every_ time, so let me be clear about exactly who I’m referencing here. In my mind, there's four distinct personas, each landing somewhere on this poorly made `AI-Company-to-Company-Using-AI` quadrant chart:
 
 ![AI Company-to-Company Using AI chart](/chart.png)
 
@@ -32,7 +32,7 @@ I'm talking about those that fall into 4 & 3, and sometimes even 2. These are st
 
 The current landscape of web3 startups is a sobering example of the blast radius that can come with marketing yourself into a corner without an escape hatch. You took a megaphone and loudly told the world that your company is only really good for one thing - but now _everybody_ is good at that thing (AI), or that thing _kind of flopped_ (blockchain).
 
-I'm not pontificating that going all-in on the next big thing as an identity is a patently bad move across the board.
+I'm not saying that going all-in on the next big thing as an identity is a patently bad move across the board.
 Depending on your goals and resiliency it could be a good one, but we want to consider it's impact on the longevity of our business:
 
 - Are you knowingly riding the wave for short term, non-repeatable revenue?
