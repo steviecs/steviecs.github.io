@@ -9,7 +9,7 @@ It's newly summer, and Ted Kaczynski just died. I'm laying down on the couch scr
 I didn't know it at the time, but I will have eaten there 3 times in the following weeks, consuming irresponsible
 amounts of pasta and wine.
 
-After a few minutes of scrolling it begins to dawn on to me that an shockingly high number of
+After a few minutes of scrolling it begins to dawn on to me that a shockingly high number of
 the pictures are featuring the same little boy over the years, wearing different clothes, eating different foods, and varying in age.
 Having the brain of an actual child myself, I think that I'm on the cusp of cracking a cold case or whatever.
 
