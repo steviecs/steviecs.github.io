@@ -2,40 +2,193 @@
   The CSS in this style tag is based off of Bear Blog's default CSS.
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
+*/
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom selection highlight */
+::selection {
+  background: rgba(142, 202, 214, 0.3);
+  color: #fff;
+}
+
+/* Custom scrollbar - subtle and themed */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(142, 202, 214, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(142, 202, 214, 0.5);
+}
+
+/* Page entrance animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 body {
   font-family: 'circular', sans-serif;
   margin: auto;
   padding: 20px;
-  max-width: 65ch; //65ch
+  max-width: 65ch;
   text-align: left;
-  background-color: #f0f8ff; //#F6F7F6; //F6F7EE //F2F6FC
+  background-color: #f0f8ff;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  line-height: 1.5;
-  color: #455a75;
-  font-weight: 400;
+
+  /* Dark mode readability optimizations */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  /* Optimal line height for long-form reading */
+  line-height: 1.7;
+
+  /* Off-white reduces eye strain vs pure white */
+  color: rgba(255, 255, 255, 0.87) !important;
+
+  /* Slightly heavier weight - light text on dark appears thinner */
+  font-weight: 450;
+
+  /* Base font size for comfortable reading */
+  font-size: 18px;
+
+  /* Subtle letter-spacing improves dark mode legibility */
+  letter-spacing: 0.01em;
+  background:   /* Top black fade - eased gradient for smooth transition */
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.95) 5%,
+      rgba(0, 0, 0, 0.85) 10%,
+      rgba(0, 0, 0, 0.7) 15%,
+      rgba(0, 0, 0, 0.5) 20%,
+      rgba(0, 0, 0, 0.3) 25%,
+      rgba(0, 0, 0, 0.15) 30%,
+      rgba(0, 0, 0, 0.05) 35%,
+      transparent 40%
+    ),
+    /* Ethereal color orb */
+      radial-gradient(
+        circle at 10% 90%,
+        /* 30% 70%*/ rgba(13, 60, 72, 0.9) 0%,
+        rgba(30, 44, 72, 0.9) 25%,
+        rgba(46, 31, 61, 0.9) 60%,
+        rgba(45, 14, 46, 0.9) 100%
+      );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+
+  /* Subtle page entrance */
+  animation: fadeIn 0.6s ease-out;
 }
 
-h4,
-h5,
-h6,
-strong,
-b,
+/* Body text - slightly dimmer than headers for hierarchy */
+p,
+li,
+td,
+th {
+  color: rgba(255, 255, 255, 0.78) !important;
+  line-height: 1.75;
+  font-weight: 500;
+}
+
+/* Generous paragraph spacing for breathing room */
 p {
-  color: #455a75;
+  margin-bottom: 1.5em;
+}
+
+p + p {
+  margin-top: 0;
+}
+
+/* Emphasis text - brighter to stand out */
+strong,
+b {
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-weight: 600;
 }
 
 h1,
 h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fira Code', monospace;
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  /* Subtle ethereal glow */
+  text-shadow: 0 0 30px rgba(142, 202, 214, 0.15);
+}
+
+h1 {
+  font-size: 2.25em;
+  margin-bottom: 0.5em;
+  text-shadow: 0 0 40px rgba(142, 202, 214, 0.2);
+}
+
+h2 {
+  font-size: 1.75em;
+  margin-top: 1.75em;
+  margin-bottom: 0.4em;
+}
+
+h2 + p,
+h3 + p {
+  margin-top: 0;
+}
+
 h3 {
-  color: #3a4f68;
+  font-size: 1.35em;
+  margin-top: 1.5em;
 }
 a {
-  color: #587cfc;
+  color: #8ecad6;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #b8e0e8;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #c4a8d4;
 }
 nav a {
-  margin-right: 10px;
+  margin-right: 1.5rem;
+  font-weight: 450;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+nav a:hover {
+  opacity: 1;
+  text-decoration: none;
 }
 textarea {
   width: 100%;
@@ -53,21 +206,81 @@ table {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 8px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Ethereal horizontal rule */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(142, 202, 214, 0.4),
+    rgba(196, 168, 212, 0.4),
+    transparent
+  );
+  margin: 3em 0;
+}
+
+/* Focus states - accessible but beautiful */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid rgba(142, 202, 214, 0.6);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 code {
-  padding: 2px 5px;
-  background-color: #f2f2f2;
+  padding: 2px 6px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.85);
 }
+
 pre {
-  padding: 1rem;
+  padding: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  overflow-x: auto;
+  line-height: 1.5;
 }
+
 pre > code {
   all: unset;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.875em;
+  color: rgba(255, 255, 255, 0.85);
 }
 blockquote {
-  border: 1px solid #999;
-  color: #222;
-  padding: 2px 0px 2px 20px;
-  margin: 0px;
+  border-left: 3px solid rgba(142, 202, 214, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0.75em 0 0.75em 1.5em;
+  margin: 2em 0;
   font-style: italic;
+  background: linear-gradient(
+    to right,
+    rgba(142, 202, 214, 0.05),
+    transparent
+  );
+  border-radius: 0 6px 6px 0;
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(
+    to bottom right,
+    #00b4d8,
+    #7b2cb7
+  );
 }

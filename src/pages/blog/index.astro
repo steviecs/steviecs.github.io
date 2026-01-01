@@ -12,7 +12,7 @@ const posts = (await getCollection('blog')).sort(
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
@@ -26,10 +26,10 @@ const posts = (await getCollection('blog')).sort(
 			ul li :global(time) {
 				flex: 0 0 130px;
 				font-style: italic;
-				color: #595959;
+				color: rgba(255, 255, 255, 0.5);
 			}
 			ul li a:visited {
-				color: #8e32dc;
+				color: #c4a8d4;
 			}
 		</style>
 	</head>

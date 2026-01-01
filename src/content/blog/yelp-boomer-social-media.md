@@ -1,7 +1,7 @@
 ---
 title: 'Yelp is a Secretly Full Featured, Completely Unhinged Boomer Social Media Platform'
 description: "Blowing the lid off of the boomer's best kept digital secret"
-pubDate: 'Jan 29 2024'
+pubDate: 'Jun 9 2023'
 draft: false
 ---
 
