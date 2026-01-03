@@ -4,7 +4,7 @@ description: 'On risk, incentives, and the limits of equity-only compensation at
 pubDate: 'Dec 31 2025'
 ---
 
-I initially began writing this in my notes app to reflect on some of my own experiences over the last few years. With the advent of vibecoding, the subsequent democratization of turning ideas into products, and products into startups, it felt like there might be latent value for the hoards of first-time technical founders finding themselves in similar positions.
+I started writing this in my notes app to reflect on my own experiences over the last few years. With the advent of vibecoding, the subsequent democratization of turning ideas into products, and products into startups, it felt like there might be latent value for the hoards of first-time technical founders finding themselves in similar positions.
 
 #### **Joining a pre-seed startup as a young, first-time technical founder can feel electrifying.**
 
