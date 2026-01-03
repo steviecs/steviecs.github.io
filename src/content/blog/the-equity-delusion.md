@@ -12,13 +12,14 @@ It feels like you’re leapfrogging peers at your day job. Like you’ve unlocke
 
 The part that’s easy to underestimate and hand-wave away when becoming a pre-seed technical founder is that it usually means you’re also the very first engineer. Often the only one. You’re writing the code, shipping the product, fixing production issues, and making architectural decisions that will either carry the company forward or quietly haunt it for years.
 
-No big deal, right? You’ve held engineering roles before, and probably still do at your day job, but this is different. There’s no employment contract, W-2. or 1099. On paper, you’re a founder. In practice, somebody still has to do the work, and the work will never, ever stop coming.
+No big deal, right? You’ve held engineering roles before, and probably still do at your day job, but this is different. There’s no employment contract, W-2, or 1099. On paper, you’re a founder. In practice, somebody still has to do the work, and the work will never, ever stop coming.
 
 And that somebody is you.
 
 You’re both a founder _and_ an employee.  
 You both run the company _and_ work for the company.  
 You operate at the highest level _and_ the lowest level at the same time.
+The alpha and the omega.
 
 And in return, your incentive is equity.
 
