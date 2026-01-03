@@ -19,9 +19,8 @@ And that somebody is you.
 You’re both a founder _and_ an employee.  
 You both run the company _and_ work for the company.  
 You operate at the highest level _and_ the lowest level at the same time.
-The alpha and the omega.
 
-And in return, your incentive is equity.
+In return, your incentive is equity.
 
 You probably know what that means, or at least think you do, but let’s slap a loose definition on it anyway.
 
@@ -29,8 +28,8 @@ You probably know what that means, or at least think you do, but let’s slap a 
 
 And that promise only ever materializes through one of three events:
 
-1. The company goes public
-2. The company is acquired
+1. The company is acquired
+2. The company goes public
 3. The company is bought out
 
 Until one of those events occurs, your equity is worth exactly nothing.
@@ -41,19 +40,25 @@ Which means the real question you need to ask yourself is this:
 
 Everybody has a tipping point. Mine was three years.
 
-The truth of the matter is that a person can only be motivated to work so long without money. The only reason you, I, or anybody else on this planet works any given job is for guaranteed money, full stop.
+The truth of the matter is that a person can only be motivated to work so long without money. The only reason you, I, or anybody else on this planet works any given job is for guaranteed income, full stop.
 
-You’re not working to finance a company, or the lives of others working for the company. You’re working to finance your own life.
+You’re not working to finance the company, or the lives of others working for the company. You’re working to finance your own life.
 
 Purpose, learning, prestige, and passion are all real, but they’re secondary. They don’t pay mortgages. They don’t fund retirements. They don’t pay vet bills. They don’t justify years of uncompensated labor if the downside is unlimited and the upside is hypothetical.
 
-When you get involved in a pre-seed startup, you need to contractualize compensation expectations early. That way, once the company becomes revenue generating and the right milestone is hit, **there’s no guesswork about when money plus equity becomes your incentive**.
+That mismatch is where most equity-only arrangements begin to break down.
+
+The singular takeaway here is that when you get involved in a pre-seed startup, you must contractualize future compensation expectations early. Not as a full-time salary, not as life-altering money, but as a clear incentive tied to the company’s ability to pay.
+
+That way, once the company becomes revenue generating and the right milestone is hit, **there’s no guesswork about when money plus equity becomes your incentive**.
 
 That can take many shapes:
 
 - X% of Y% of net profit
-- Hourly compensation
+- A capped hourly rate
 - A fixed monthly amount
+
+Nothing huge. Poverty wages. Something to alleviate the emotional and financial pain of working multiple jobs.
 
 The structure matters less than the existence of the agreement. Because **equity alone is not compensation**. Equity is risk.
 
